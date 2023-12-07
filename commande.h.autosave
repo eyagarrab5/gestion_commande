@@ -2,7 +2,7 @@
 #ifndef COMMANDE_H
 #define COMMANDE_H
 
-#include<QString>
+#include<QString> 
 #include<QSqlQuery>
 #include<QSqlQueryModel>
 #include <QDebug>
