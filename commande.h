@@ -12,7 +12,7 @@ class commande
 {
 
 public:
-    commande();
+    commande(); 
     commande(int,int,int,QString,int);
     int getreference();
     int getddate();
