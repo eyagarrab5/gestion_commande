@@ -10,7 +10,7 @@
 #include <QMessageBox>
 #include <QSqlError>
 #include <QDebug>
-commande::commande()
+commande::commande() 
 {
     reference=0;
     ddate=0;
