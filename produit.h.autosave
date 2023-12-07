@@ -1,0 +1,17 @@
+#ifndef PRODUIT_H
+#define PRODUIT_H
+
+class Produit {
+public:
+    int id;
+    QString nom;
+    float prix; // Add this line
+
+    bool disponible();
+};
+class Commande {
+public:
+    bool valider();
+    // Autres membres et méthodes de la classe Commande
+};
+#endif // PRODUIT_H
